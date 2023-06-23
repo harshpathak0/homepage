@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Registration form</title>
+</head>
+<body>
+    <h1>Patient Registration Form</h1>
+    <hr>
+
+    <form>
+        <label>Patient's Name :-</label>
+        <input type="text"  placeholder="Enter your First name">
+        <input type="text"  placeholder="Enter your Last name">
+        <br><br>
+        
+        <label>Father's Name:-</label>
+        <input type="text"  placeholder="Enter your Father's name"><br><br>
+
+        <label>Gender:- </label><br><br>
+        Male : <Input type="radio" Name="Gender"><br>
+        Female : <input type="radio" Name="Gender"><br><br> 
+
+        <label>Date of Birth:-</label>
+        <input type="date">
+        <br><br>
+
+
+        <label>Email:-</label>
+        <input type="email"  placeholder="Enter your Email">
+        <br><br>
+
+
+        <label>Patient's Address:-</label>
+        <textarea name="" id="" cols="60" rows="2"  placeholder="Enter your Address"></textarea><br><br>
+        <input type="text"  placeholder="City">
+        <input type="text"  placeholder="State"><br><br>
+        <input type="text"  placeholder="Pincode / Zipcode">
+        <select>
+        <option value="" disabled selected hidden>Choose your country</option>
+        <option >India</option>
+        <option >America</option>
+        <option > Bangladesh</option>
+        <option > Nepal</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button><br><br>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
