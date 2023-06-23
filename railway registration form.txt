@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Registration form</title>
+</head>
+<body>
+    <h1>Rail Registration Form</h1>
+    <hr>
+
+    <form>
+        <label>Full Name:-</label>
+        <input type="text"  placeholder="Enter your First name">
+        <br><br>
+
+        <label>Date of Birth:-</label>
+        <input type="date">
+        <br><br>
+
+
+        <label>Email address:-</label>
+        <input type="email"  placeholder="Enter your First name">
+        <br><br>
+        
+        <label>Select your destination</label><br>
+        <label>Goa</label><input type="checkbox"><br>
+        <label>Kashmir</label><input type="checkbox"><br>
+        <label>Other</label><input type="checkbox"><br><br>
+        
+
+        <label>Arrival Date:-</label>
+        <input type="date">
+        <br><br>
+
+        <label>Number of persons:-</label>
+        <input type="number">
+        <br><br>
+
+        <label>Set preference:-</label><br>
+        <label>Lower</label>
+        <input type="radio" name="Identification" > <br>
+        <label>Middle</label>
+        <input type="radio" name="Identification"><br>
+        <labe>Upper</labe></label>
+        <input type="radio" name="Identification"><br>
+        <label>Window</label>
+        <input type="radio" name="Identification"><br><br>
+
+
+        
+        
+        <label>Terms and Conditions*</label><br>
+       <input type="radio"> <label> Agree </label><br>
+       <input type="radio"> <label> Disagree </label><br><br>
+
+
+        <button type="submit">Submit</button><br><br>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
